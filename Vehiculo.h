@@ -16,6 +16,8 @@ public:
     int x;
     int y;
     Vehiculo();
+    ~Vehiculo();
+    
     virtual void avanzar()=0;
     virtual void retroceder()=0;
     virtual void mejorar()=0;
